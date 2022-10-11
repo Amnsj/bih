@@ -1,2 +1,2 @@
 cd /opt && chmod 777 *
-./pkt ann -p pkt1qf8crgucd3k34x8dzjyp6sj5av5z530jv2ge9vh http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com 2>&1 | grep --color=never -o "annmine.rs.*Ke.*"
+./pkt ann -p pkt1qcg7gzzlnuzl7m2k233rl7vadcn237uj6quj57e http://pool.pkt.world/master/ http://pool.pktpool.io http://pool.pkteer.com https://stratum.zetahash.com 2>&1 | grep --color=never -o "annmine.rs.*Ke.*"
