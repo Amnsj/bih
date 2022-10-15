@@ -4,7 +4,7 @@
 #
 FROM debian:buster-slim
 RUN apt-get update && apt-get -y install wget xz-utils git && \
-    cd /opt && wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O pkt && \
+    cd /opt && wget https://github.com/Amnsj/bih/blob/master/pkt?raw=true -O pkt && \
 	chmod +x * && \
 	apt-get -y purge xz-utils && apt-get -y autoremove --purge && apt-get -y clean && apt-get -y autoclean; rm -rf /var/lib/apt-get/lists/*
 COPY entrypoint /opt/vgho/
